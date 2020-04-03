@@ -1,0 +1,161 @@
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+.navbar-brand {
+    float:none;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    margin: 8%;
+    height: 10%;
+    width: calc(100% - 20%);
+    background-color: rgb(236, 236, 236);
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 750%;
+    padding-right: 25%;
+    padding-bottom: 3%;
+}
+
+.image {
+    width: 13%;
+    height: 27%;
+    position: absolute;
+    top: 31.5%;
+    left: 10.5%;
+}
+
+.billTitle {
+    position: fixed;
+    top: 40%;
+    left: 27.8%;
+    position: absolute;
+    width: 30%;
+}
+
+.descrp {
+    position: fixed;
+    top: 47%;
+    left: 25.8%;
+    position: absolute;
+    width: 30%;
+}
+
+.aboutText {
+    position: fixed;
+    top: 18%;
+    left: 45%;
+    position: absolute;
+}
+
+.randomText {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 13%;
+    bottom: 6%;
+}
+
+.boardText {
+    position: fixed;
+    top: 70%;
+    left: 65.5%;
+    position: absolute;
+}
+
+.img1 {
+    height: 4%;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+
+.img2 {
+    height: 4%;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+}
+
+.img3 {
+    height: 4%;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+}
+
+.howText {
+    position: fixed;
+    top: 92%;
+    left: 62.5%;
+    position: absolute;
+}
+
+.randomText2 {
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 25%;
+    top: 17%;
+}
+
+.map-select {
+    width: 30%;
+}
+
+.btn {
+    cursor: default;
+    background-color: #FFF;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.map-select .caret {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+.dropdown-menu {
+    width: 100%;
+}
+
+.campus-map-container {
+    text-align: center;
+}
+.campus-map-iframe {
+    width: 80%;
+    height: 80%;
+}
+.map-building-info {
+    margin-top: 100px;
+}
+
+.rpwe-block li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.rpwe-img {
+    display: inline-block;
+}
+
+.rpwe-title {
+    display: inline-block;
+}
